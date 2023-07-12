@@ -8,9 +8,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class TrucksAndPackagesApplication implements CommandLineRunner {
 	
-	@Autowired
-	private TruckRepository truckRepository;
-
 	public static void main(String[] args) {
 		SpringApplication.run(TrucksAndPackagesApplication.class, args);
 	}

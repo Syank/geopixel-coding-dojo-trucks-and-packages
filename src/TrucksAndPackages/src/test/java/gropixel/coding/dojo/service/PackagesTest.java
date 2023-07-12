@@ -13,52 +13,57 @@ import org.springframework.test.context.ContextConfiguration;
 public class PackagesTest {
 
     @Test
-    public void assertPackageCanBeRegistered() {
+    public void should_packageBePersisted_when_entityIsSaved() {
 
     }
 
     @Test
-    public void assertPackageCanBeUpdated() {
+    public void should_packageBeUpdated_when_theEntityBeEditedAndSaved() {
 
     }
 
     @Test
-    public void assertPackageCanBeDeleted() {
+    public void should_packageBeDeleted_when_itBeRequestedToTheService() {
 
     }
 
     @Test
-    public void assertPackagesListCanBeRetrieved() {
+    public void should_packagesListBeRetrieved_when_itBeRequestedFromTheService() {
 
     }
 
     @Test
-    public void assertPackageCanBeFoundById() {
+    public void should_packageBeFound_when_searchedById() {
 
     }
 
     @Test
-    public void assertPackagesCanBeFoundByContentType() {
+    public void should_packagesBeFound_when_searchedByContentType() {
 
     }
 
     @Test
-    public void assertPackageCanNotBeRegisteredWithoutContentType() {
+    public void should_packageNotBeRegistered_when_triedToBeRegisteredWithoutContentType() {
 
     }
 
     @Test
-    public void assertPackageCanBeAssignedToTruck() {
+    public void should_packageBeAssignedToTruck_when_requestedToTheService() {
 
     }
 
     @Test
-    public void assertPackageCanNotBeAssignedToMoreThanOneTruckAtTimeAndExpectException() {
+    public void should_packageNotBeAssignedToMoreThanOneTruck_when_assignedToATruckWhenAlreadyIsAssignedToOneAndExpectException() {
 
     }
 
     @Test
-    public void assertPackageCanBeUnassignedFromTruck() {
+    public void should_packageBeWithoutTruck_when_aPackageFromATruckBeUnassignedFromIt() {
+
+    }
+
+    @Test
+    public void should_packagesFromTruckBeRetrieved_when_requestedThePackagesOfATruck() {
 
     }
 

@@ -13,57 +13,57 @@ import org.springframework.test.context.ContextConfiguration;
 public class TrucksTest {
 
     @Test
-    public void assertTruckCanBeRegistered() {
+    public void should_truckBePersisted_when_entityIsSaved() {
 
     }
 
     @Test
-    public void assertTruckCanBeUpdated() {
+    public void should_truckBeUpdated_when_theEntityBeEditedAndSaved() {
 
     }
 
     @Test
-    public void assertTruckCanBeDeleted() {
+    public void should_truckBeDeleted_when_itBeRequestedToTheService() {
 
     }
 
     @Test
-    public void assertTrucksListCanBeRetrieved() {
+    public void should_trucksListBeRetrieved_when_itBeRequestedFromTheService() {
 
     }
 
     @Test
-    public void assertTruckCanBeFoundById() {
+    public void should_truckBeFound_when_searchedById() {
 
     }
 
     @Test
-    public void assertTruckCanBeFoundByLicensePlate() {
+    public void should_truckBeFound_when_searchedByLicensePlate() {
 
     }
 
     @Test
-    public void assertCanAssignThreePackagesToTruck() {
+    public void should_truckHasThreeAssignedPackages_when_packagesAreAssignedToIt() {
 
     }
 
     @Test
-    public void assertCanNotAssignMoraThanThreePackagesToTruckAndExpectException() {
+    public void should_exceptionBeThrow_when_moreThanThreePackagesAreAssignedToTruck() {
 
     }
 
     @Test
-    public void assertCanUnassignPackagesFromTruck() {
+    public void should_packageIsRemovedFromTruck_when_packageIsUnassignedFromTruck() {
 
     }
 
     @Test
-    public void assertTruckCanNotBeRegisteredWithoutLicensePlateAndExpectException() {
+    public void should_exceptionBeThrow_when_truckIsRegisteredWithoutLicensePlate() {
 
     }
 
     @Test
-    public void assertCanFindTrucksWithSpecificAmountOfAssignedPackages() {
+    public void should_trucksBeFound_when_searchForTrucksWithASpecificAmountOfPackages() {
 
     }
 
